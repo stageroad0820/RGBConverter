@@ -108,7 +108,7 @@ public class Main extends JFrame{
 				
 				msgbox("info", "파일 입력 시작", "파일 입력을 시작합니다. 파일 크기에 따라 시간이 다소 걸릴 수 있습니다.");
 				
-				output.write("Red,Green,Blue");
+				output.write("Red,Green,Blue\r\n");
 				
 				for (int i = 0; i < height; i++) {
 					for (int j = 0; j < width; j++) {
@@ -166,7 +166,7 @@ public class Main extends JFrame{
 		JButton btn_load = new JButton();
 		JPanel pmain = new JPanel();
 		
-		fmain.setTitle("RGB Converter v0.1.1 [Beta]");
+		fmain.setTitle("RGB Converter v0.1.2 [Beta]");
 		fmain.setSize(800, 450);
 		
 		btn_load.setText("사진 불러오기");
