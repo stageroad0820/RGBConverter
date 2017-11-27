@@ -119,7 +119,7 @@ public class Main extends JFrame{
 						blue = pixel & 0xff;
 						
 						String contents = "- Pixel: " + j + ", " + i + " > [" + alpha + ", " + red + ", " + green + ", " + blue + "]\r\n";
-						System.out.println("[Log:Info] 파일 입력 중 입니다. 현재 픽셀: " + j + ", " + i + " / RGB 값: [" + alpha + ", " + red + ", " + green + ", " + blue +"]");
+						System.out.println("[Log:Info] 파일 입력 중 입니다. 현재 픽셀: " + j + ", " + i  + " (전체 픽셀: " + height + ", " + width + ")" + " / RGB 값: [" + alpha + ", " + red + ", " + green + ", " + blue +"]");
 						output.write(contents);
 					}
 				}
@@ -167,7 +167,7 @@ public class Main extends JFrame{
 		JButton btn_load = new JButton();
 		JPanel pmain = new JPanel();
 		
-		fmain.setTitle("RGB Converter v0.1.0 [Beta]");
+		fmain.setTitle("RGB Converter v0.1.2 [Beta/master]");
 		fmain.setSize(800, 450);
 		
 		btn_load.setText("사진 불러오기");
