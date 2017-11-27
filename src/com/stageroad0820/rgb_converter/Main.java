@@ -135,7 +135,7 @@ public class Main extends JFrame{
 		JButton btn_load = new JButton();
 		JPanel pmain = new JPanel();
 		
-		fmain.setTitle("RGB Converter v0.0.1 [Alpha]");
+		fmain.setTitle("RGB Converter v0.0.1 [Alpha/alpha]");
 		fmain.setSize(800, 450);
 		
 		btn_load.setText("사진 불러오기");
