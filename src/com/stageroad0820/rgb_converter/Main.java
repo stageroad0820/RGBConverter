@@ -132,7 +132,7 @@ public class Main extends JFrame{
 				
 				File temp = new File("rgb_converter-" + fileName + ".txt");
 				
-				System.out.println("[Log:Info] 파일을 엽니다. 파일 위치: " + file.getPath());
+				System.out.println("[Log:Info] 파일을 엽니다. 파일 위치: " + temp.getAbsolutePath());
 				
 				dt.open(temp);
 			}
@@ -169,7 +169,7 @@ public class Main extends JFrame{
 		JButton btn_load = new JButton();
 		JPanel pmain = new JPanel();
 		
-		fmain.setTitle("RGB Converter v0.1.3 [Beta/excel]");
+		fmain.setTitle("RGB Converter v0.1.4 [Beta/excel]");
 		fmain.setSize(800, 450);
 		
 		btn_load.setText("사진 불러오기");
