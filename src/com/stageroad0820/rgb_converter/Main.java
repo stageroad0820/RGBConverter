@@ -132,7 +132,7 @@ public class Main extends JFrame{
 				
 				File temp = new File("rgb_converter-" + fileName + ".txt");
 				
-				System.out.println("[Log:Info] 파일을 엽니다. 파일 위치: " + file.getPath());
+				System.out.println("[Log:Info] 파일을 엽니다. 파일 위치: " + temp.getAbsolutePath());
 				
 				dt.open(temp);
 			}
